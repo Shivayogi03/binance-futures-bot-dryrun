@@ -49,6 +49,56 @@ trading-bot/
        ├── requests.log
        └── errors.log
 
+🎆How It Works Internally
+## 🔍 How It Works Internally
+
+This project mimics how real Binance Futures order placement works—without using API keys and without sending real requests.
+
+---
+
+### 1. CLI → Bot
+When you run:
+
+python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001 --dry
+
+Your input is parsed and passed into `TradingBot.place_order()`.
+
+---
+
+### 2. Signature Generation (Real Binance Style)
+Before an order is created, a query string like this is generated:
+
+symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&timestamp=123456789
+
+`generate_signature()` creates a SHA256 HMAC signature — the same way Binance requires.
+
+---
+
+### 3. Dry-Run Mock Order
+Since dry-run mode is enabled:
+
+- No API request is made  
+- A realistic mock fill response is returned  
+- Your order always returns status = `FILLED`
+
+---
+
+### 4. Logging Every Order
+Two files are updated every run:
+
+logs/requests.log → request & response logs
+logs/errors.log → error logs
+
+These logs are PERFECT for interview demonstration.
+
+---
+
+### 5. Safe by Design
+- No API calls  
+- No API keys required  
+- No money at risk  
+- Still behaves like a real algorithmic trading bot
+  
 ⚙️ Installation
 1️⃣ Clone or Download the Repository
 git clone https://github.com/<your-username>/binance-futures-bot-dryrun.git
