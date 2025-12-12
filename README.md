@@ -124,7 +124,7 @@ The --dry flag enables Dry-Run Mode
  'type': 'MARKET', 'executedQty': 0.001, 'status': 'FILLED'}
 ========================
 🎦Snapshot:
-<img width="1536" height="1024" alt="snapshot" src="https://github.com/user-attachments/assets/446c7f2b-29f2-4d37-8322-1ad556748728" />[Uploading snapshot.png…]()
+<img width="1336" height="824" alt="snapshot" src="https://github.com/user-attachments/assets/446c7f2b-29f2-4d37-8322-1ad556748728" />[Uploading snapshot.png…]()
 
 📝 Logging
 
