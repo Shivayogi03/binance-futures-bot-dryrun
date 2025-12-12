@@ -5,6 +5,31 @@ Binance Futures Trading Bot (Dry-Run Mode)
 
 A clean, production-style Python trading bot that simulates Binance Futures orders using real futures-style signatures, CLI commands, and full request logging — all without needing API keys.
 
+# Binance Futures Trading Bot (Dry-Run Mode)
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)]()
+[![Status](https://img.shields.io/badge/Mode-Dry%20Run-success.svg)]()
+[![Logging](https://img.shields.io/badge/Logs-Enabled-important.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
+[![Platform](https://img.shields.io/badge/Binance-Futures%20Testnet-yellow.svg)]()
+
+A fully-structured, testnet-compatible **Binance Futures Trading Bot** built for the hiring task.  
+Designed to simulate real futures trading via **dry-run mode**, including:
+
+- ✔ Market & Limit Orders  
+- ✔ Signed request generation (HMAC SHA256)  
+- ✔ CLI-based user input  
+- ✔ Full request/response logging  
+- ✔ Mock trading engine for offline testing  
+- ✔ Professional folder structure  
+- ✔ Ready for extension to real API trading  
+
+---
+
+# 📸 Screenshots
+
+### **CLI Market Order**
+
 Perfect for assignments, interviews, learning HMAC signing, or testing trading logic safely.
 
 🚀 Features
