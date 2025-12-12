@@ -25,8 +25,86 @@ Designed to simulate real futures trading via **dry-run mode**, including:
 - ✔ Ready for extension to real API trading  
 
 ---
+python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001 --dry
 
-# 📸 Screenshots
+
+![Market Order Screenshot](./screenshots/market_order_example.png)
+
+---
+
+### **CLI Limit Order**
+
+
+python cli.py --symbol ETHUSDT --side SELL --type LIMIT --quantity 0.002 --price 2000 --dry
+
+
+![Limit Order Screenshot](./screenshots/limit_order_example.png)
+
+---
+
+### **Project Folder Structure**
+![Folder Structure](./screenshots/folder_structure.png)
+
+> *(Create a folder named `/screenshots` and add your screenshots)*
+
+---
+
+# 🚀 Features
+
+| Feature | Status |
+|--------|--------|
+| Market Orders | ✅ |
+| Limit Orders | ✅ |
+| BUY & SELL | ✅ |
+| Testnet-style Signature | ✅ |
+| Logging (requests + errors) | ✅ |
+| Mock Engine (Dry Run) | ✅ |
+| CLI Interface | ✅ |
+| Error Handling | ✅ |
+| Extendable to Real API | 🔄 Optional |
+| Advanced Order Types (OCO, Stop-Limit, TWAP) | 🔄 Optional |
+
+---
+
+# 🛠 Tech Stack
+
+- **Python 3.10+**
+- argparse
+- logging
+- hmac / hashlib (for Binance-style signatures)
+- python-dotenv
+- (Optional) python-binance for live API trading
+
+---
+
+# ⚙ How It Works Internally
+
+Below is a high-level architecture explaining how the bot executes a trade.
+
+## **1️⃣ User Input (CLI)**  
+User runs:
+
+
+
+python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001 --dry
+
+
+CLI parses arguments → creates a `TradingBot` instance.
+
+---
+
+## **2️⃣ Bot Generates Request Parameters**
+
+Example:
+
+```python
+params = {
+    "symbol": "BTCUSDT",
+    "side": "BUY",
+    "type": "MARKET",
+    "quantity": 0.001,
+    "timestamp": 1765562129706
+}
 
 ### **CLI Market Order**
 
