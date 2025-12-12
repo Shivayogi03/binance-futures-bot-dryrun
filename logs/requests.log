@@ -1,0 +1,6 @@
+2025-12-12 23:25:29,707 [INFO] URL: https://testnet.binancefuture.com/fapi/v1/order
+2025-12-12 23:25:29,707 [INFO] PARAMS: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1765562129706, 'signature': '80f336da8920a349d7ed5a18e0cb5250e3f374b9584c431896c632f5ccc66aa1'}
+2025-12-12 23:25:29,707 [INFO] RESPONSE: {'symbol': 'BTCUSDT', 'orderId': 1765562129, 'side': 'BUY', 'type': 'MARKET', 'price': None, 'executedQty': 0.001, 'status': 'FILLED', 'clientOrderId': 'dryrun-order', 'updateTime': 1765562129}
+2025-12-12 23:25:29,816 [INFO] URL: https://testnet.binancefuture.com/fapi/v1/order
+2025-12-12 23:25:29,816 [INFO] PARAMS: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.002, 'timestamp': 1765562129816, 'price': 2000.0, 'signature': 'c73c4f1c441682da7ae0ea4f00033f08caf0cd5c7e3b8910260200da231dfd25'}
+2025-12-12 23:25:29,816 [INFO] RESPONSE: {'symbol': 'ETHUSDT', 'orderId': 1765562129, 'side': 'SELL', 'type': 'LIMIT', 'price': 2000.0, 'executedQty': 0.002, 'status': 'FILLED', 'clientOrderId': 'dryrun-order', 'updateTime': 1765562129}
