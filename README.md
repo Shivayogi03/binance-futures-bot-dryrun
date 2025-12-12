@@ -1,3 +1,6 @@
+
+<img width="1536" height="1024" alt="banner" src="https://github.com/user-attachments/assets/3fc58e59-5cae-4c42-aad4-f4dad91ce36f" />[Uploading banner.png…]()
+
 Binance Futures Trading Bot (Dry-Run Mode)
 
 A clean, production-style Python trading bot that simulates Binance Futures orders using real futures-style signatures, CLI commands, and full request logging — all without needing API keys.
