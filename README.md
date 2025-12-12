@@ -1,5 +1,5 @@
 
-<img width="1536" height="1024" alt="banner" src="https://github.com/user-attachments/assets/3fc58e59-5cae-4c42-aad4-f4dad91ce36f" />[Uploading banner.png…]()
+<img width="1536" height="1024" alt="banner" src="https://github.com/user-attachments/assets/3fc58e59-5cae-4c42-aad4-f4dad91ce36f" />
 
 Binance Futures Trading Bot (Dry-Run Mode)
 
@@ -204,7 +204,7 @@ The --dry flag enables Dry-Run Mode
  'type': 'MARKET', 'executedQty': 0.001, 'status': 'FILLED'}
 ========================
 🎦Snapshot:
-<img width="1336" height="824" alt="snapshot" src="https://github.com/user-attachments/assets/446c7f2b-29f2-4d37-8322-1ad556748728" />[Uploading snapshot.png…]()
+<img width="1036" height="624" alt="snapshot" src="https://github.com/user-attachments/assets/446c7f2b-29f2-4d37-8322-1ad556748728" />
 
 📝 Logging
 
