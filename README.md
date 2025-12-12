@@ -25,29 +25,6 @@ Designed to simulate real futures trading via **dry-run mode**, including:
 - ✔ Ready for extension to real API trading  
 
 ---
-python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001 --dry
-
-
-![Market Order Screenshot](./screenshots/market_order_example.png)
-
----
-
-### **CLI Limit Order**
-
-
-python cli.py --symbol ETHUSDT --side SELL --type LIMIT --quantity 0.002 --price 2000 --dry
-
-
-![Limit Order Screenshot](./screenshots/limit_order_example.png)
-
----
-
-### **Project Folder Structure**
-![Folder Structure](./screenshots/folder_structure.png)
-
-> *(Create a folder named `/screenshots` and add your screenshots)*
-
----
 
 # 🚀 Features
 
@@ -97,7 +74,7 @@ CLI parses arguments → creates a `TradingBot` instance.
 
 Example:
 
-```python
+python
 params = {
     "symbol": "BTCUSDT",
     "side": "BUY",
